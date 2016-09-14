@@ -10,17 +10,17 @@ Requirements
 
 The filesystem layout must be like this:
 
-<basedir>
+`<basedir>
 	|
 	--><species>  
 		|
 		-->
 		   <sample><suffix>
-	           <sample>.tbi
+	           <sample>.tbi`
 
 This example is for data from the 1000 Genomes project, assuming a suffix of .vcf.gz:
 
-<basedir>
+`<basedir>
 	|
 	--><human>  
 		|
@@ -29,7 +29,7 @@ This example is for data from the 1000 Genomes project, assuming a suffix of .vc
 		   HG00099.tbi
 		   HG00100.vcf.gz
 		   HG00100.tbi
-		   ..more..
+		   ..more..`
 
 Installation
 ============
