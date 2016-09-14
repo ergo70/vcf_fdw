@@ -12,18 +12,18 @@ The filesystem layout must be like this:
 
 * `<basedir>`
  * `<species>`  
-  * `<sample><suffix>`
-  * `<sample>.tbi`
+  - `<sample><suffix>`
+  - `<sample>.tbi`
 
 This example is for data from the 1000 Genomes project, assuming a suffix of .vcf.gz:
 
 * `<basedir>`
  * `<human>`  
-  * `HG00099.vcf.gz`
-  * `HG00099.tbi`
-  * `HG00100.vcf.gz`
-  * `HG00100.tbi`
-  * `..more..`
+  - `HG00099.vcf.gz`
+  - `HG00099.tbi`
+  - `HG00100.vcf.gz`
+  - `HG00100.tbi`
+  - `..more..`
 
 Installation
 ============
