@@ -12,24 +12,24 @@ The filesystem layout must be like this:
 
 <basedir>
 	|
-	---><species>  
+	--><species>  
 		|
-		------>
-			<sample><suffix>
-			<sample>.tbi
+		-->
+		   <sample><suffix>
+	           <sample>.tbi
 
 This example is for data from the 1000 Genomes project, assuming a suffix of .vcf.gz:
 
 <basedir>
 	|
-	---><human>  
+	--><human>  
 		|
-		------>
-			HG00099.vcf.gz
-			HG00099.tbi
-			HG00100.vcf.gz
-			HG00100.tbi
-			...
+		-->
+		   HG00099.vcf.gz
+		   HG00099.tbi
+		   HG00100.vcf.gz
+		   HG00100.tbi
+		   ..more..
 
 Installation
 ============
@@ -103,4 +103,4 @@ SELECT info, genotype, issnp FROM vcf.<species> WHERE chrom = '1' AND pos betwee
 Disclaimer
 ==========
 
-This software comes without any warranty whatsoever.  Use at your own risk.
+This software comes without any warranty whatsoever. Use at your own risk.
