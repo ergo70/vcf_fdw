@@ -18,7 +18,7 @@ The filesystem layout must be like this:
 This example is for data from the 1000 Genomes project, assuming a suffix of .vcf.gz:
 
 * `<basedir>`
-  * `<human>`  
+  * `human`  
     * `HG00099.vcf.gz`
     * `HG00099.vcf.gz.tbi`
     * `HG00100.vcf.gz`
